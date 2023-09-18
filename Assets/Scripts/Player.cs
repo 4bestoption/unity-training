@@ -56,7 +56,9 @@ public class Player : MonoBehaviour
         if (att == true)
         {
             GetComponent<Animator>().SetTrigger("isAttack");
-
+            
         }
+        
+
     }
 }

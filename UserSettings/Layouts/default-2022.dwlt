@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 108
+  controlID: 40
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -314,6 +314,7 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: -7900377088199338041, guid: 93f7053513efb204299658e3a4d9a1d7, type: 2}
+    - {fileID: -8334183923558779176, guid: 46c52433ebee1814e9cdc14adf2b05c0, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.76841617
       e01: 0
@@ -331,10 +332,26 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 0.8253623
+      e01: 0
+      e02: 0
+      e03: 120.753235
+      e10: 0
+      e11: 0.8253623
+      e12: 0
+      e13: 82.76153
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 93f7053513efb204299658e3a4d9a1d7, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 46c52433ebee1814e9cdc14adf2b05c0, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -7900377088199338041, guid: 93f7053513efb204299658e3a4d9a1d7, type: 2}
+  - m_Target: {fileID: -8334183923558779176, guid: 46c52433ebee1814e9cdc14adf2b05c0, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -384,9 +401,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 76600000
       m_LastClickedID: 0
-      m_ExpandedIDs: 28fbffff
+      m_ExpandedIDs: 44faffff48faffff4cfaffff50faffff54faffff58faffff98faffffacfaffffb0faffffb4faffffb8faffffbcfaffff28fbffff3c590000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -779,9 +796,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.08239469, y: 2.1910927, z: -12.039867}
+    m_Target: {x: 1.1280582, y: 2.8959167, z: -3.3790936}
     speed: 2
-    m_Value: {x: 0.08239469, y: 2.1910927, z: -12.039867}
+    m_Value: {x: 1.1280582, y: 2.8959167, z: -3.3790936}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -827,13 +844,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.015228806, y: 0.9772177, z: -0.19789824, w: 0.07519913}
+    m_Target: {x: -0.01256974, y: -0.9867, z: 0.093830206, w: -0.13222001}
     speed: 2
-    m_Value: {x: 0.01522877, y: 0.97721535, z: -0.19789776, w: 0.07519895}
+    m_Value: {x: -0.012569608, y: -0.9866896, z: 0.09382922, w: -0.13221863}
   m_Size:
-    m_Target: 14.267645
+    m_Target: 2.7546592
     speed: 2
-    m_Value: 14.267645
+    m_Value: 2.7546592
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1001,7 +1018,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/_GhoulZombie
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1009,30 +1026,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/_GhoulZombie
   m_LastFoldersGridSize: 16
   m_LastProjectPath: "D:\\\uACB0\uACFC\uBB3C\\Unity - Lym"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 193.39996}
-    m_SelectedIDs: 285b0000
-    m_LastClickedID: 23336
-    m_ExpandedIDs: 00000000f65a0000f85a0000245b0000325b0000026e00000a6e00001c6e000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: f85e0000
+    m_LastClickedID: 24312
+    m_ExpandedIDs: 00000000005b0000065b0000085b00000a5b0000445b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Melee Warrior Animations
-      m_OriginalName: Melee Warrior Animations
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 23346
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -1046,7 +1063,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f65a0000f85a0000
+    m_ExpandedIDs: 00000000005b0000025b0000045b0000065b0000085b00000a5b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1074,21 +1091,21 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000d26d00004c6600005c6d0000ea7100000072000030720000625e00008a5e0000805e0000785e0000445b0000
+    m_ExpandedInstanceIDs: c6230000d26d00004c6600005c6d0000ea7100000072000030720000625e00008a5e0000805e0000785e0000445b000080600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Player
-      m_OriginalName: Player
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 19368
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -1122,10 +1139,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 7.2000003
+    y: 753.60004
+    width: 1551.8
+    height: 310.60004
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0

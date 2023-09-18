@@ -15,4 +15,12 @@ public class Zombie : MonoBehaviour
     {
         
     }
+
+    // 대기, 추격(이동), 공격, 피격, 죽음
+    void Idle()
+    {
+
+    }
+
+
 }
